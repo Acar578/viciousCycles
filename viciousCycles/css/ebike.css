@@ -12,13 +12,6 @@
     float: none;
     max-width: 100%;
 }
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #73726e
-}
-/*Navigation Bar*/
 /*Drop Down Menu*/
 ul{
     list-style: none;
@@ -87,10 +80,26 @@ ul li ul li a{
     font-size: 100%;
     margin: auto;
 }
-/*End*/
+.image{
+    align-self: center;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+img{
+    max-width: 100%;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
 h1{
-    font-size: 2rem;
     text-align: center;
+    margin: 10px;
+    font-size: 2rem;
 }
 footer{
     margin-top: auto;
